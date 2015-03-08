@@ -1,0 +1,573 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hubot-slack',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'hubot-slack@^3.2.1', null ]
+6 verbose cache add name=undefined spec="hubot-slack@^3.2.1" args=["hubot-slack@^3.2.1",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'hubot-slack@^3.2.1',
+7 verbose parsed url   path: 'hubot-slack@^3.2.1',
+7 verbose parsed url   href: 'hubot-slack@^3.2.1' }
+8 verbose cache add name="hubot-slack" spec="^3.2.1" args=["hubot-slack","^3.2.1"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '^3.2.1',
+9 verbose parsed url   path: '^3.2.1',
+9 verbose parsed url   href: '^3.2.1' }
+10 verbose addNamed [ 'hubot-slack', '^3.2.1' ]
+11 verbose addNamed [ null, '>=3.2.1-0 <4.0.0-0' ]
+12 silly lockFile fc1e788a-hubot-slack-3-2-1 hubot-slack@^3.2.1
+13 verbose lock hubot-slack@^3.2.1 /Users/yukiyoshimura/.npm/fc1e788a-hubot-slack-3-2-1.lock
+14 silly addNameRange { name: 'hubot-slack',
+14 silly addNameRange   range: '>=3.2.1-0 <4.0.0-0',
+14 silly addNameRange   hasData: false }
+15 verbose url raw hubot-slack
+16 verbose url resolving [ 'https://registry.npmjs.org/', './hubot-slack' ]
+17 verbose url resolved https://registry.npmjs.org/hubot-slack
+18 info trying registry request attempt 1 at 00:17:51
+19 verbose etag "NAZLIG3BTV5OH2P135T8IMV3"
+20 http GET https://registry.npmjs.org/hubot-slack
+21 http 200 https://registry.npmjs.org/hubot-slack
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Sun, 08 Mar 2015 15:17:52 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"CCQ23DH473B45PNEUAQZVHG2B"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '40881',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-nrt6123-NRT',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1425827871.800980,VS0,VE404',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'hubot-slack',
+23 silly addNameRange   range: '>=3.2.1-0 <4.0.0-0',
+23 silly addNameRange   hasData: true }
+24 silly addNameRange versions [ 'hubot-slack',
+24 silly addNameRange   [ '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.2.2',
+24 silly addNameRange     '1.2.3',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.5.1',
+24 silly addNameRange     '1.5.2',
+24 silly addNameRange     '1.5.3',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.0.2',
+24 silly addNameRange     '2.0.3',
+24 silly addNameRange     '2.0.4',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.1.2',
+24 silly addNameRange     '2.1.3',
+24 silly addNameRange     '2.2.0',
+24 silly addNameRange     '3.0.0',
+24 silly addNameRange     '3.1.0',
+24 silly addNameRange     '3.2.0',
+24 silly addNameRange     '3.2.1',
+24 silly addNameRange     '3.3.0' ] ]
+25 verbose addNamed [ 'hubot-slack', '3.3.0' ]
+26 verbose addNamed [ '3.3.0', '3.3.0' ]
+27 silly lockFile de0b7fd3-hubot-slack-3-3-0 hubot-slack@3.3.0
+28 verbose lock hubot-slack@3.3.0 /Users/yukiyoshimura/.npm/de0b7fd3-hubot-slack-3-3-0.lock
+29 silly lockFile 5da7b45f-ubot-slack-hubot-slack-3-3-0-tgz https://registry.npmjs.org/hubot-slack/-/hubot-slack-3.3.0.tgz
+30 verbose lock https://registry.npmjs.org/hubot-slack/-/hubot-slack-3.3.0.tgz /Users/yukiyoshimura/.npm/5da7b45f-ubot-slack-hubot-slack-3-3-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/hubot-slack/-/hubot-slack-3.3.0.tgz',
+31 verbose addRemoteTarball   'f351c801995dcda6eb5c9eb652661ec08ab1511e' ]
+32 info retry fetch attempt 1 at 00:17:52
+33 verbose fetch to= /var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872247-0.39441341045312583/tmp.tgz
+34 http GET https://registry.npmjs.org/hubot-slack/-/hubot-slack-3.3.0.tgz
+35 http 200 https://registry.npmjs.org/hubot-slack/-/hubot-slack-3.3.0.tgz
+36 verbose tar unpack /var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872247-0.39441341045312583/tmp.tgz
+37 silly lockFile a53c6ab4-ra-npm-hubot-slack-3-3-0-package tar:///Users/yukiyoshimura/.npm/hubot-slack/3.3.0/package
+38 verbose lock tar:///Users/yukiyoshimura/.npm/hubot-slack/3.3.0/package /Users/yukiyoshimura/.npm/a53c6ab4-ra-npm-hubot-slack-3-3-0-package.lock
+39 silly lockFile 0fce036a-2247-0-39441341045312583-tmp-tgz tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872247-0.39441341045312583/tmp.tgz
+40 verbose lock tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872247-0.39441341045312583/tmp.tgz /Users/yukiyoshimura/.npm/0fce036a-2247-0-39441341045312583-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry .travis.yml
+47 silly gunzTarPerm extractEntry index.coffee
+48 silly gunzTarPerm extractEntry src/listener.coffee
+49 silly gunzTarPerm extractEntry src/message.coffee
+50 silly gunzTarPerm extractEntry src/slack.coffee
+51 silly gunzTarPerm extractEntry Gruntfile.coffee
+52 silly gunzTarPerm extractEntry test/message.coffee
+53 silly gunzTarPerm extractEntry test/slack.coffee
+54 silly gunzTarPerm extractEntry test/stubs.coffee
+55 silly lockFile a53c6ab4-ra-npm-hubot-slack-3-3-0-package tar:///Users/yukiyoshimura/.npm/hubot-slack/3.3.0/package
+56 silly lockFile a53c6ab4-ra-npm-hubot-slack-3-3-0-package tar:///Users/yukiyoshimura/.npm/hubot-slack/3.3.0/package
+57 silly lockFile 0fce036a-2247-0-39441341045312583-tmp-tgz tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872247-0.39441341045312583/tmp.tgz
+58 silly lockFile 0fce036a-2247-0-39441341045312583-tmp-tgz tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872247-0.39441341045312583/tmp.tgz
+59 silly lockFile 5da7b45f-ubot-slack-hubot-slack-3-3-0-tgz https://registry.npmjs.org/hubot-slack/-/hubot-slack-3.3.0.tgz
+60 silly lockFile 5da7b45f-ubot-slack-hubot-slack-3-3-0-tgz https://registry.npmjs.org/hubot-slack/-/hubot-slack-3.3.0.tgz
+61 silly lockFile de0b7fd3-hubot-slack-3-3-0 hubot-slack@3.3.0
+62 silly lockFile de0b7fd3-hubot-slack-3-3-0 hubot-slack@3.3.0
+63 silly lockFile fc1e788a-hubot-slack-3-2-1 hubot-slack@^3.2.1
+64 silly lockFile fc1e788a-hubot-slack-3-2-1 hubot-slack@^3.2.1
+65 silly resolved [ { name: 'hubot-slack',
+65 silly resolved     version: '3.3.0',
+65 silly resolved     author: { name: 'Tiny Speck', url: 'https://www.tinyspeck.com/' },
+65 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+65 silly resolved     keywords: [ 'hubot', 'tinyspeck', 'adapter', 'slack' ],
+65 silly resolved     description: 'A Slack adapter for hubot',
+65 silly resolved     licenses: [ [Object] ],
+65 silly resolved     repository:
+65 silly resolved      { type: 'git',
+65 silly resolved        url: 'http://github.com/slackhq/hubot-slack.git' },
+65 silly resolved     bugs:
+65 silly resolved      { url: 'https://github.com/slackhq/hubot-slack/issues',
+65 silly resolved        email: 'feedback@tinyspeck.com' },
+65 silly resolved     devDependencies:
+65 silly resolved      { 'coffee-script': '~1.7.1',
+65 silly resolved        grunt: '~0.4.1',
+65 silly resolved        'grunt-release': '~0.6.0',
+65 silly resolved        should: '~2.0.2',
+65 silly resolved        mocha: '~1.13.0',
+65 silly resolved        'grunt-contrib-watch': '~0.5.3',
+65 silly resolved        'grunt-shell': '~0.5.0',
+65 silly resolved        hubot: '~2.11' },
+65 silly resolved     main: './index',
+65 silly resolved     engines: { node: '>=0.4.7' },
+65 silly resolved     scripts: { test: 'mocha --compilers coffee:coffee-script/register --reporter spec' },
+65 silly resolved     dependencies: { 'slack-client': '~1.4.0' },
+65 silly resolved     readme: '# hubot-slack\n\nThis is a [Hubot](http://hubot.github.com/) adapter to use with [Slack](https://slack.com).\n\n[![Build Status](https://travis-ci.org/slackhq/hubot-slack.png)](https://travis-ci.org/slackhq/hubot-slack)\n\n## Getting Started\n\n#### Creating a new bot\n\n- `npm install -g hubot coffee-script yo generator-hubot`\n- `mkdir -p /path/to/hubot`\n- `cd /path/to/hubot`\n- `yo hubot`\n- `npm install hubot-slack --save`\n- Initialize git and make your initial commit\n- Check out the [hubot docs](https://github.com/github/hubot/tree/master/docs) for further guidance on how to build your bot\n\n#### Testing your bot locally\n\n- `HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd ./bin/hubot --adapter slack`\n\n#### Deploying to Heroku\n\nThis is a modified set of instructions based on the [instructions on the Hubot wiki](https://github.com/github/hubot/blob/master/docs/deploying/heroku.md).\n\n- Follow the instructions above to create a hubot locally\n- Edit your `Procfile` and change it to use the `slack` adapter:\n\n        web: bin/hubot --adapter slack\n\n- Install [heroku toolbelt](https://toolbelt.heroku.com/) if you haven\'t already.\n- `heroku create my-company-slackbot`\n- `heroku addons:add redistogo:nano`\n- Activate the Hubot service on your ["Team Services"](http://my.slack.com/services/new/hubot) page inside Slack.\n- Add the [config variables](#adapter-configuration). For example:\n\n        % heroku config:add HEROKU_URL=http://my-company-slackbot.herokuapp.com\n        % heroku config:add HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd\n\n- Deploy and start the bot:\n\n        % git push heroku master\n        % heroku ps:scale web=1\n\n- Profit!\n\n## Upgrading from earlier versions of Hubot\n\nVersion 3 of the hubot-slack adapter requires different server support to\nprevious versions. If you have an existing "hubot" integration set up you\'ll\nneed to upgrade:\n\n- Go to https://my.slack.com/services/new/hubot and create a new hubot\n  integration\n- Run `npm install hubot-slack --save`\n  to update your code.\n- Test your bot locally using:\n  `HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd ./bin/hubot --adapter slack`\n- Update your production startup scripts to pass the new `HUBOT_SLACK_TOKEN`.\n  You can remove the other `HUBOT_SLACK_*` environment variables if you want.\n- Deploy your new hubot to production.\n- Once you\'re happy it works, remove the old hubot integration from\n  https://my.slack.com/services\n\n## Configuration\n\nThis adapter uses the following environment variables:\n\n - `HUBOT_SLACK_TOKEN` - this is the API token for the Slack user you would like to run Hubot under.\n\nTo add or remove your bot from specific channels or private groups, you can use the /kick and /invite slash commands that are built into Slack.\n\nIf you\'re using the [hubot-auth](https://github.com/hubot-scripts/hubot-auth/) script, you can get the user IDs required for the `HUBOT_AUTH_ADMIN` setting by calling the [users.list API method](https://api.slack.com/methods/users.list/test).\n\n## Copyright\n\nCopyright &copy; Slack Technologies, Inc. MIT License; see LICENSE for further details.\n',
+65 silly resolved     readmeFilename: 'README.md',
+65 silly resolved     homepage: 'https://github.com/slackhq/hubot-slack',
+65 silly resolved     _id: 'hubot-slack@3.3.0',
+65 silly resolved     _shasum: 'f351c801995dcda6eb5c9eb652661ec08ab1511e',
+65 silly resolved     _from: 'hubot-slack@^3.2.1',
+65 silly resolved     _resolved: 'https://registry.npmjs.org/hubot-slack/-/hubot-slack-3.3.0.tgz' } ]
+66 info install hubot-slack@3.3.0 into /Applications/develop/originalbot/greetingbot
+67 info installOne hubot-slack@3.3.0
+68 info /Applications/develop/originalbot/greetingbot/node_modules/hubot-slack unbuild
+69 info preuninstall hubot-slack@3.2.1
+70 info uninstall hubot-slack@3.2.1
+71 verbose true,/Applications/develop/originalbot/greetingbot/node_modules,/Applications/develop/originalbot/greetingbot/node_modules unbuild hubot-slack@3.2.1
+72 info postuninstall hubot-slack@3.2.1
+73 verbose tar unpack /Users/yukiyoshimura/.npm/hubot-slack/3.3.0/package.tgz
+74 silly lockFile 67435292-tingbot-node-modules-hubot-slack tar:///Applications/develop/originalbot/greetingbot/node_modules/hubot-slack
+75 verbose lock tar:///Applications/develop/originalbot/greetingbot/node_modules/hubot-slack /Users/yukiyoshimura/.npm/67435292-tingbot-node-modules-hubot-slack.lock
+76 silly lockFile b71c0ef7-pm-hubot-slack-3-3-0-package-tgz tar:///Users/yukiyoshimura/.npm/hubot-slack/3.3.0/package.tgz
+77 verbose lock tar:///Users/yukiyoshimura/.npm/hubot-slack/3.3.0/package.tgz /Users/yukiyoshimura/.npm/b71c0ef7-pm-hubot-slack-3-3-0-package-tgz.lock
+78 silly gunzTarPerm modes [ '755', '644' ]
+79 silly gunzTarPerm extractEntry package.json
+80 silly gunzTarPerm extractEntry .npmignore
+81 silly gunzTarPerm extractEntry README.md
+82 silly gunzTarPerm extractEntry LICENSE
+83 silly gunzTarPerm extractEntry .travis.yml
+84 silly gunzTarPerm extractEntry index.coffee
+85 silly gunzTarPerm extractEntry src/listener.coffee
+86 silly gunzTarPerm extractEntry src/message.coffee
+87 silly gunzTarPerm extractEntry src/slack.coffee
+88 silly gunzTarPerm extractEntry Gruntfile.coffee
+89 silly gunzTarPerm extractEntry test/message.coffee
+90 silly gunzTarPerm extractEntry test/slack.coffee
+91 silly gunzTarPerm extractEntry test/stubs.coffee
+92 silly lockFile 67435292-tingbot-node-modules-hubot-slack tar:///Applications/develop/originalbot/greetingbot/node_modules/hubot-slack
+93 silly lockFile 67435292-tingbot-node-modules-hubot-slack tar:///Applications/develop/originalbot/greetingbot/node_modules/hubot-slack
+94 silly lockFile b71c0ef7-pm-hubot-slack-3-3-0-package-tgz tar:///Users/yukiyoshimura/.npm/hubot-slack/3.3.0/package.tgz
+95 silly lockFile b71c0ef7-pm-hubot-slack-3-3-0-package-tgz tar:///Users/yukiyoshimura/.npm/hubot-slack/3.3.0/package.tgz
+96 info preinstall hubot-slack@3.3.0
+97 verbose readDependencies using package.json deps
+98 verbose readDependencies using package.json deps
+99 verbose cache add [ 'slack-client@~1.4.0', null ]
+100 verbose cache add name=undefined spec="slack-client@~1.4.0" args=["slack-client@~1.4.0",null]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: 'slack-client@~1.4.0',
+101 verbose parsed url   path: 'slack-client@~1.4.0',
+101 verbose parsed url   href: 'slack-client@~1.4.0' }
+102 verbose cache add name="slack-client" spec="~1.4.0" args=["slack-client","~1.4.0"]
+103 verbose parsed url { protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: '~1.4.0',
+103 verbose parsed url   path: '~1.4.0',
+103 verbose parsed url   href: '~1.4.0' }
+104 verbose addNamed [ 'slack-client', '~1.4.0' ]
+105 verbose addNamed [ null, '>=1.4.0-0 <1.5.0-0' ]
+106 silly lockFile 159d0bd4-slack-client-1-4-0 slack-client@~1.4.0
+107 verbose lock slack-client@~1.4.0 /Users/yukiyoshimura/.npm/159d0bd4-slack-client-1-4-0.lock
+108 silly addNameRange { name: 'slack-client',
+108 silly addNameRange   range: '>=1.4.0-0 <1.5.0-0',
+108 silly addNameRange   hasData: false }
+109 verbose url raw slack-client
+110 verbose url resolving [ 'https://registry.npmjs.org/', './slack-client' ]
+111 verbose url resolved https://registry.npmjs.org/slack-client
+112 info trying registry request attempt 1 at 00:17:52
+113 verbose etag "9WIYKCODNCHCQFKR7M7F6XCWD"
+114 http GET https://registry.npmjs.org/slack-client
+115 http 200 https://registry.npmjs.org/slack-client
+116 silly registry.get cb [ 200,
+116 silly registry.get   { date: 'Sun, 08 Mar 2015 15:17:52 GMT',
+116 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+116 silly registry.get     etag: '"62X7UKLUO13G8U8SGWD5UM0RP"',
+116 silly registry.get     'content-type': 'application/json',
+116 silly registry.get     'cache-control': 'max-age=60',
+116 silly registry.get     'content-length': '11738',
+116 silly registry.get     'accept-ranges': 'bytes',
+116 silly registry.get     via: '1.1 varnish',
+116 silly registry.get     age: '0',
+116 silly registry.get     'x-served-by': 'cache-nrt6135-NRT',
+116 silly registry.get     'x-cache': 'MISS',
+116 silly registry.get     'x-cache-hits': '0',
+116 silly registry.get     'x-timer': 'S1425827872.494164,VS0,VE169',
+116 silly registry.get     vary: 'Accept',
+116 silly registry.get     'keep-alive': 'timeout=10, max=50',
+116 silly registry.get     connection: 'Keep-Alive' } ]
+117 silly addNameRange number 2 { name: 'slack-client',
+117 silly addNameRange   range: '>=1.4.0-0 <1.5.0-0',
+117 silly addNameRange   hasData: true }
+118 silly addNameRange versions [ 'slack-client',
+118 silly addNameRange   [ '1.0.0', '1.0.1', '1.1.0', '1.2.0', '1.2.2', '1.3.1', '1.4.0' ] ]
+119 verbose addNamed [ 'slack-client', '1.4.0' ]
+120 verbose addNamed [ '1.4.0', '1.4.0' ]
+121 silly lockFile adfb9fd0-slack-client-1-4-0 slack-client@1.4.0
+122 verbose lock slack-client@1.4.0 /Users/yukiyoshimura/.npm/adfb9fd0-slack-client-1-4-0.lock
+123 silly lockFile b1bed98a-ck-client-slack-client-1-4-0-tgz https://registry.npmjs.org/slack-client/-/slack-client-1.4.0.tgz
+124 verbose lock https://registry.npmjs.org/slack-client/-/slack-client-1.4.0.tgz /Users/yukiyoshimura/.npm/b1bed98a-ck-client-slack-client-1-4-0-tgz.lock
+125 verbose addRemoteTarball [ 'https://registry.npmjs.org/slack-client/-/slack-client-1.4.0.tgz',
+125 verbose addRemoteTarball   '1c1a3b60fd71cdfd54bcc86611670a2c62dc80b2' ]
+126 info retry fetch attempt 1 at 00:17:52
+127 verbose fetch to= /var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872675-0.11411521886475384/tmp.tgz
+128 http GET https://registry.npmjs.org/slack-client/-/slack-client-1.4.0.tgz
+129 http 200 https://registry.npmjs.org/slack-client/-/slack-client-1.4.0.tgz
+130 verbose tar unpack /var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872675-0.11411521886475384/tmp.tgz
+131 silly lockFile c1b23146-a-npm-slack-client-1-4-0-package tar:///Users/yukiyoshimura/.npm/slack-client/1.4.0/package
+132 verbose lock tar:///Users/yukiyoshimura/.npm/slack-client/1.4.0/package /Users/yukiyoshimura/.npm/c1b23146-a-npm-slack-client-1-4-0-package.lock
+133 silly lockFile f7b9f02c-2675-0-11411521886475384-tmp-tgz tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872675-0.11411521886475384/tmp.tgz
+134 verbose lock tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872675-0.11411521886475384/tmp.tgz /Users/yukiyoshimura/.npm/f7b9f02c-2675-0-11411521886475384-tmp-tgz.lock
+135 silly gunzTarPerm modes [ '755', '644' ]
+136 silly gunzTarPerm extractEntry package.json
+137 silly gunzTarPerm extractEntry .npmignore
+138 silly gunzTarPerm extractEntry README.md
+139 silly gunzTarPerm extractEntry LICENSE
+140 silly gunzTarPerm extractEntry index.js
+141 silly gunzTarPerm extractEntry bin/slack
+142 silly gunzTarPerm extractEntry .travis.yml
+143 silly gunzTarPerm extractEntry CHANGELOG.md
+144 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+145 silly gunzTarPerm extractEntry examples/simple_reverse.js
+146 silly gunzTarPerm extractEntry src/bot.js
+147 silly gunzTarPerm extractEntry src/channel.js
+148 silly gunzTarPerm extractEntry src/client.js
+149 silly gunzTarPerm extractEntry src/dm.js
+150 silly gunzTarPerm extractEntry src/group.js
+151 silly gunzTarPerm extractEntry src/message.js
+152 silly gunzTarPerm extractEntry src/team.js
+153 silly gunzTarPerm extractEntry src/user.js
+154 silly lockFile c1b23146-a-npm-slack-client-1-4-0-package tar:///Users/yukiyoshimura/.npm/slack-client/1.4.0/package
+155 silly lockFile c1b23146-a-npm-slack-client-1-4-0-package tar:///Users/yukiyoshimura/.npm/slack-client/1.4.0/package
+156 silly lockFile f7b9f02c-2675-0-11411521886475384-tmp-tgz tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872675-0.11411521886475384/tmp.tgz
+157 silly lockFile f7b9f02c-2675-0-11411521886475384-tmp-tgz tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827872675-0.11411521886475384/tmp.tgz
+158 silly lockFile b1bed98a-ck-client-slack-client-1-4-0-tgz https://registry.npmjs.org/slack-client/-/slack-client-1.4.0.tgz
+159 silly lockFile b1bed98a-ck-client-slack-client-1-4-0-tgz https://registry.npmjs.org/slack-client/-/slack-client-1.4.0.tgz
+160 silly lockFile adfb9fd0-slack-client-1-4-0 slack-client@1.4.0
+161 silly lockFile adfb9fd0-slack-client-1-4-0 slack-client@1.4.0
+162 silly lockFile 159d0bd4-slack-client-1-4-0 slack-client@~1.4.0
+163 silly lockFile 159d0bd4-slack-client-1-4-0 slack-client@~1.4.0
+164 silly resolved [ { name: 'slack-client',
+164 silly resolved     version: '1.4.0',
+164 silly resolved     description: 'A library for creating a full Slack client',
+164 silly resolved     main: './index',
+164 silly resolved     scripts:
+164 silly resolved      { test: 'mocha --compilers coffee:coffee-script/register --reporter spec',
+164 silly resolved        prepublish: 'grunt prepublish' },
+164 silly resolved     keywords: [ 'slack' ],
+164 silly resolved     author: { name: 'Slack Technologies, Inc.' },
+164 silly resolved     licenses: [ [Object] ],
+164 silly resolved     repository:
+164 silly resolved      { type: 'git',
+164 silly resolved        url: 'git://github.com/slackhq/node-slack-client.git' },
+164 silly resolved     bugs: { url: 'http://github.com/slackhq/node-slack-client/issues' },
+164 silly resolved     dependencies: { 'coffee-script': '~1.9.0', ws: '0.4.31', log: '1.4.0' },
+164 silly resolved     devDependencies:
+164 silly resolved      { grunt: '^0.4.5',
+164 silly resolved        'grunt-contrib-coffee': '^0.12.0',
+164 silly resolved        'grunt-contrib-watch': '~0.5.3',
+164 silly resolved        'grunt-release': '~0.6.0',
+164 silly resolved        'grunt-shell': '~0.5.0',
+164 silly resolved        should: '~2.0.2',
+164 silly resolved        mocha: '~1.13.0' },
+164 silly resolved     engines: { node: '>= 0.10.x', npm: '>= 1.1.x' },
+164 silly resolved     readme: '# Node.js Slack Client Library\n\n## Travis-CI Build Status\n\n[![Build Status](https://travis-ci.org/slackhq/node-slack-client.png?branch=master)](https://travis-ci.org/slackhq/node-slack-client)\n\n## Description\n\nThis is a Slack client library for Node.js. It is intended to expose all of the functionality of [Slack\'s Real Time Messaging API](https://api.slack.com/rtm) while providing some common abstractions and generally making your life easier, if you want it to.\n\nThis code has been built to support our [hubot-slack](https://github.com/slackhq/hubot-slack) adapter. Most other functionality isn\'t yet supported, and documentation is minimal, at best. A simple example of how to use this module from Node.js can be found in the `examples` directory.\n\n## Contribute\n\nHere\'s the most direct way to get your work merged into the project.\n\n1. Fork the project\n2. Clone down your fork\n3. Create a feature branch\n4. Hack away and add tests, not necessarily in that order\n5. Make sure everything still passes by running tests\n6. If necessary, rebase your commits into logical chunks without errors\n7. Add yourself to package.json as a contributor\n8. Push the branch up to your fork\n9. Send a pull request for your branch\n\n## Copyright\n\nCopyright &copy; Slack Technologies, Inc. MIT License; see LICENSE for further details.\n\n## TODOs\n\n1. Better/any timeouts on initial websocket connection\n2. Better/any timeouts on API calls\n3. Document the connection options, etc\n4. Emit more events around unreads and mentions\n',
+164 silly resolved     readmeFilename: 'README.md',
+164 silly resolved     homepage: 'https://github.com/slackhq/node-slack-client',
+164 silly resolved     _id: 'slack-client@1.4.0',
+164 silly resolved     _shasum: '1c1a3b60fd71cdfd54bcc86611670a2c62dc80b2',
+164 silly resolved     _from: 'slack-client@~1.4.0',
+164 silly resolved     _resolved: 'https://registry.npmjs.org/slack-client/-/slack-client-1.4.0.tgz' } ]
+165 info install slack-client@1.4.0 into /Applications/develop/originalbot/greetingbot/node_modules/hubot-slack
+166 info installOne slack-client@1.4.0
+167 info /Applications/develop/originalbot/greetingbot/node_modules/hubot-slack/node_modules/slack-client unbuild
+168 verbose tar unpack /Users/yukiyoshimura/.npm/slack-client/1.4.0/package.tgz
+169 silly lockFile 985a2a97--slack-node-modules-slack-client tar:///Applications/develop/originalbot/greetingbot/node_modules/hubot-slack/node_modules/slack-client
+170 verbose lock tar:///Applications/develop/originalbot/greetingbot/node_modules/hubot-slack/node_modules/slack-client /Users/yukiyoshimura/.npm/985a2a97--slack-node-modules-slack-client.lock
+171 silly lockFile a1f33b68-m-slack-client-1-4-0-package-tgz tar:///Users/yukiyoshimura/.npm/slack-client/1.4.0/package.tgz
+172 verbose lock tar:///Users/yukiyoshimura/.npm/slack-client/1.4.0/package.tgz /Users/yukiyoshimura/.npm/a1f33b68-m-slack-client-1-4-0-package-tgz.lock
+173 silly gunzTarPerm modes [ '755', '644' ]
+174 silly gunzTarPerm extractEntry package.json
+175 silly gunzTarPerm extractEntry .npmignore
+176 silly gunzTarPerm extractEntry README.md
+177 silly gunzTarPerm extractEntry LICENSE
+178 silly gunzTarPerm extractEntry index.js
+179 silly gunzTarPerm extractEntry bin/slack
+180 silly gunzTarPerm extractEntry .travis.yml
+181 silly gunzTarPerm extractEntry CHANGELOG.md
+182 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+183 silly gunzTarPerm extractEntry examples/simple_reverse.js
+184 silly gunzTarPerm extractEntry src/bot.js
+185 silly gunzTarPerm extractEntry src/channel.js
+186 silly gunzTarPerm extractEntry src/client.js
+187 silly gunzTarPerm extractEntry src/dm.js
+188 silly gunzTarPerm extractEntry src/group.js
+189 silly gunzTarPerm extractEntry src/message.js
+190 silly gunzTarPerm extractEntry src/team.js
+191 silly gunzTarPerm extractEntry src/user.js
+192 silly lockFile 985a2a97--slack-node-modules-slack-client tar:///Applications/develop/originalbot/greetingbot/node_modules/hubot-slack/node_modules/slack-client
+193 silly lockFile 985a2a97--slack-node-modules-slack-client tar:///Applications/develop/originalbot/greetingbot/node_modules/hubot-slack/node_modules/slack-client
+194 silly lockFile a1f33b68-m-slack-client-1-4-0-package-tgz tar:///Users/yukiyoshimura/.npm/slack-client/1.4.0/package.tgz
+195 silly lockFile a1f33b68-m-slack-client-1-4-0-package-tgz tar:///Users/yukiyoshimura/.npm/slack-client/1.4.0/package.tgz
+196 info preinstall slack-client@1.4.0
+197 verbose readDependencies using package.json deps
+198 verbose readDependencies using package.json deps
+199 verbose cache add [ 'coffee-script@~1.9.0', null ]
+200 verbose cache add name=undefined spec="coffee-script@~1.9.0" args=["coffee-script@~1.9.0",null]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: 'coffee-script@~1.9.0',
+201 verbose parsed url   path: 'coffee-script@~1.9.0',
+201 verbose parsed url   href: 'coffee-script@~1.9.0' }
+202 verbose cache add name="coffee-script" spec="~1.9.0" args=["coffee-script","~1.9.0"]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: '~1.9.0',
+203 verbose parsed url   path: '~1.9.0',
+203 verbose parsed url   href: '~1.9.0' }
+204 verbose addNamed [ 'coffee-script', '~1.9.0' ]
+205 verbose addNamed [ null, '>=1.9.0-0 <1.10.0-0' ]
+206 silly lockFile cf308af1-coffee-script-1-9-0 coffee-script@~1.9.0
+207 verbose lock coffee-script@~1.9.0 /Users/yukiyoshimura/.npm/cf308af1-coffee-script-1-9-0.lock
+208 verbose cache add [ 'ws@0.4.31', null ]
+209 verbose cache add name=undefined spec="ws@0.4.31" args=["ws@0.4.31",null]
+210 verbose parsed url { protocol: null,
+210 verbose parsed url   slashes: null,
+210 verbose parsed url   auth: null,
+210 verbose parsed url   host: null,
+210 verbose parsed url   port: null,
+210 verbose parsed url   hostname: null,
+210 verbose parsed url   hash: null,
+210 verbose parsed url   search: null,
+210 verbose parsed url   query: null,
+210 verbose parsed url   pathname: 'ws@0.4.31',
+210 verbose parsed url   path: 'ws@0.4.31',
+210 verbose parsed url   href: 'ws@0.4.31' }
+211 verbose cache add name="ws" spec="0.4.31" args=["ws","0.4.31"]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: '0.4.31',
+212 verbose parsed url   path: '0.4.31',
+212 verbose parsed url   href: '0.4.31' }
+213 verbose addNamed [ 'ws', '0.4.31' ]
+214 verbose addNamed [ '0.4.31', '0.4.31' ]
+215 silly lockFile 53e67403-ws-0-4-31 ws@0.4.31
+216 verbose lock ws@0.4.31 /Users/yukiyoshimura/.npm/53e67403-ws-0-4-31.lock
+217 verbose cache add [ 'log@1.4.0', null ]
+218 verbose cache add name=undefined spec="log@1.4.0" args=["log@1.4.0",null]
+219 verbose parsed url { protocol: null,
+219 verbose parsed url   slashes: null,
+219 verbose parsed url   auth: null,
+219 verbose parsed url   host: null,
+219 verbose parsed url   port: null,
+219 verbose parsed url   hostname: null,
+219 verbose parsed url   hash: null,
+219 verbose parsed url   search: null,
+219 verbose parsed url   query: null,
+219 verbose parsed url   pathname: 'log@1.4.0',
+219 verbose parsed url   path: 'log@1.4.0',
+219 verbose parsed url   href: 'log@1.4.0' }
+220 verbose cache add name="log" spec="1.4.0" args=["log","1.4.0"]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: '1.4.0',
+221 verbose parsed url   path: '1.4.0',
+221 verbose parsed url   href: '1.4.0' }
+222 verbose addNamed [ 'log', '1.4.0' ]
+223 verbose addNamed [ '1.4.0', '1.4.0' ]
+224 silly lockFile 91aa9e10-log-1-4-0 log@1.4.0
+225 verbose lock log@1.4.0 /Users/yukiyoshimura/.npm/91aa9e10-log-1-4-0.lock
+226 silly addNameRange { name: 'coffee-script',
+226 silly addNameRange   range: '>=1.9.0-0 <1.10.0-0',
+226 silly addNameRange   hasData: false }
+227 verbose url raw coffee-script
+228 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+229 verbose url resolved https://registry.npmjs.org/coffee-script
+230 info trying registry request attempt 1 at 00:17:53
+231 verbose etag "ET2P4PMI7BCQATHHDTAJVT20D"
+232 http GET https://registry.npmjs.org/coffee-script
+233 verbose url raw log
+234 verbose url resolving [ 'https://registry.npmjs.org/', './log' ]
+235 verbose url resolved https://registry.npmjs.org/log
+236 info trying registry request attempt 1 at 00:17:53
+237 verbose etag "1DW8E8F930MT828CAFKI698C0"
+238 http GET https://registry.npmjs.org/log
+239 verbose url raw ws
+240 verbose url resolving [ 'https://registry.npmjs.org/', './ws' ]
+241 verbose url resolved https://registry.npmjs.org/ws
+242 info trying registry request attempt 1 at 00:17:53
+243 verbose etag "2SNACFE0D8M0VSM7NGCVAX9VO"
+244 http GET https://registry.npmjs.org/ws
+245 http 200 https://registry.npmjs.org/log
+246 silly registry.get cb [ 200,
+246 silly registry.get   { date: 'Sun, 08 Mar 2015 15:17:53 GMT',
+246 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+246 silly registry.get     etag: '"34FV7EYRXR1VZFMK8YY91XZEN"',
+246 silly registry.get     'content-type': 'application/json',
+246 silly registry.get     'cache-control': 'max-age=60',
+246 silly registry.get     'content-length': '8001',
+246 silly registry.get     'accept-ranges': 'bytes',
+246 silly registry.get     via: '1.1 varnish',
+246 silly registry.get     age: '0',
+246 silly registry.get     'x-served-by': 'cache-nrt6123-NRT',
+246 silly registry.get     'x-cache': 'MISS',
+246 silly registry.get     'x-cache-hits': '0',
+246 silly registry.get     'x-timer': 'S1425827873.576460,VS0,VE420',
+246 silly registry.get     vary: 'Accept',
+246 silly registry.get     'keep-alive': 'timeout=10, max=50',
+246 silly registry.get     connection: 'Keep-Alive' } ]
+247 silly lockFile 42ef40d9-stry-npmjs-org-log-log-1-4-0-tgz https://registry.npmjs.org/log/-/log-1.4.0.tgz
+248 verbose lock https://registry.npmjs.org/log/-/log-1.4.0.tgz /Users/yukiyoshimura/.npm/42ef40d9-stry-npmjs-org-log-log-1-4-0-tgz.lock
+249 verbose addRemoteTarball [ 'https://registry.npmjs.org/log/-/log-1.4.0.tgz',
+249 verbose addRemoteTarball   '4ba1d890fde249b031dca03bc37eaaf325656f1c' ]
+250 info retry fetch attempt 1 at 00:17:54
+251 verbose fetch to= /var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827874013-0.45768011803738773/tmp.tgz
+252 http GET https://registry.npmjs.org/log/-/log-1.4.0.tgz
+253 http 200 https://registry.npmjs.org/log/-/log-1.4.0.tgz
+254 verbose tar unpack /var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827874013-0.45768011803738773/tmp.tgz
+255 silly lockFile a1f13bf6-iyoshimura-npm-log-1-4-0-package tar:///Users/yukiyoshimura/.npm/log/1.4.0/package
+256 verbose lock tar:///Users/yukiyoshimura/.npm/log/1.4.0/package /Users/yukiyoshimura/.npm/a1f13bf6-iyoshimura-npm-log-1-4-0-package.lock
+257 silly lockFile 052edb2b-4013-0-45768011803738773-tmp-tgz tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827874013-0.45768011803738773/tmp.tgz
+258 verbose lock tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827874013-0.45768011803738773/tmp.tgz /Users/yukiyoshimura/.npm/052edb2b-4013-0-45768011803738773-tmp-tgz.lock
+259 silly gunzTarPerm modes [ '755', '644' ]
+260 silly gunzTarPerm extractEntry package.json
+261 silly gunzTarPerm extractEntry index.js
+262 silly gunzTarPerm extractEntry examples/file.js
+263 silly gunzTarPerm extractEntry examples/reader.js
+264 silly gunzTarPerm extractEntry examples/stdout.js
+265 silly gunzTarPerm extractEntry examples/file.log
+266 silly gunzTarPerm extractEntry History.md
+267 silly gunzTarPerm extractEntry index.html
+268 silly gunzTarPerm extractEntry lib/log.js
+269 silly gunzTarPerm extractEntry Makefile
+270 silly gunzTarPerm extractEntry Readme.md
+271 silly lockFile a1f13bf6-iyoshimura-npm-log-1-4-0-package tar:///Users/yukiyoshimura/.npm/log/1.4.0/package
+272 silly lockFile a1f13bf6-iyoshimura-npm-log-1-4-0-package tar:///Users/yukiyoshimura/.npm/log/1.4.0/package
+273 silly lockFile 052edb2b-4013-0-45768011803738773-tmp-tgz tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827874013-0.45768011803738773/tmp.tgz
+274 silly lockFile 052edb2b-4013-0-45768011803738773-tmp-tgz tar:///var/folders/dy/fmqfw4l119l5z0bt58345l6c0000gn/T/npm-935-xwbDWnFS/1425827874013-0.45768011803738773/tmp.tgz
+275 silly lockFile 42ef40d9-stry-npmjs-org-log-log-1-4-0-tgz https://registry.npmjs.org/log/-/log-1.4.0.tgz
+276 silly lockFile 42ef40d9-stry-npmjs-org-log-log-1-4-0-tgz https://registry.npmjs.org/log/-/log-1.4.0.tgz
+277 silly lockFile 91aa9e10-log-1-4-0 log@1.4.0
+278 silly lockFile 91aa9e10-log-1-4-0 log@1.4.0
+279 verbose about to build /Applications/develop/originalbot/greetingbot/node_modules/hubot-slack/node_modules/slack-client
+280 info /Applications/develop/originalbot/greetingbot/node_modules/hubot-slack/node_modules/slack-client unbuild
+281 info preuninstall slack-client@1.4.0
+282 info uninstall slack-client@1.4.0
+283 verbose false,/Applications/develop/originalbot/greetingbot/node_modules,/Applications/develop/originalbot/greetingbot/node_modules/hubot-slack/node_modules unbuild slack-client@1.4.0
+284 info postuninstall slack-client@1.4.0
+285 verbose about to build /Applications/develop/originalbot/greetingbot/node_modules/hubot-slack
+286 info /Applications/develop/originalbot/greetingbot/node_modules/hubot-slack unbuild
+287 info preuninstall hubot-slack@3.3.0
+288 info uninstall hubot-slack@3.3.0
+289 verbose true,/Applications/develop/originalbot/greetingbot/node_modules,/Applications/develop/originalbot/greetingbot/node_modules unbuild hubot-slack@3.3.0
+290 info postuninstall hubot-slack@3.3.0
+291 error Error: EACCES, open '/Users/yukiyoshimura/.npm/log/1.4.0/package.tgz'
+291 error  { [Error: EACCES, open '/Users/yukiyoshimura/.npm/log/1.4.0/package.tgz']
+291 error   errno: 3,
+291 error   code: 'EACCES',
+291 error   path: '/Users/yukiyoshimura/.npm/log/1.4.0/package.tgz',
+291 error   parent: 'slack-client' }
+292 error Please try running this command again as root/Administrator.
+293 error System Darwin 14.1.0
+294 error command "node" "/usr/local/bin/npm" "install" "hubot-slack" "--save"
+295 error cwd /Applications/develop/originalbot/greetingbot
+296 error node -v v0.10.28
+297 error npm -v 1.4.9
+298 error path /Users/yukiyoshimura/.npm/log/1.4.0/package.tgz
+299 error code EACCES
+300 error errno 3
+301 error stack Error: EACCES, open '/Users/yukiyoshimura/.npm/log/1.4.0/package.tgz'
+302 verbose exit [ 3, true ]
