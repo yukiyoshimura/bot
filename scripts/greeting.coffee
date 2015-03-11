@@ -12,7 +12,7 @@ getparam = ->
      '馬鹿も才能の一つだ。賢いだけが生き様じゃない。'
      'ちゃーす'
      ]
-  elseif hour >= 13
+  else
     random [
       '飯食ったか？'
       '@yoyaku hiru'
